@@ -12,7 +12,8 @@ public class TestTime {
         t1.nextSecond().nextSecond().nextSecond();
         System.out.println("After adding 3 more seconds (with chaining): " + t1); 
 
-        // Test setters and getters
+        //
+        // Test setters and getters//
         t1.setHour(12);
         t1.setMinute(34);
         t1.setSecond(56);
@@ -38,5 +39,6 @@ public class TestTime {
             System.out.println("Caught an exception: " + e.getMessage());
         }
     }
+    //java
     
 }

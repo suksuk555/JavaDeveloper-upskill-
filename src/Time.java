@@ -42,7 +42,7 @@ public class Time {
         if(second < 0 || second>59){
             throw new IllegalArgumentException("Second must between 0 and 59");
         }
-        this.second = second;
+        this.second = second; //
     }
 
     
