@@ -39,7 +39,6 @@ public class StudentList {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return String.format("%s(%s)", name, address);
     }
 
